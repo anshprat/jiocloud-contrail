@@ -8,6 +8,7 @@ class contrail::control (
   $contrail_ip     = $::ipaddress,
 ) {
 
+
   package {'contrail-control':
     ensure => $package_ensure,
   }
